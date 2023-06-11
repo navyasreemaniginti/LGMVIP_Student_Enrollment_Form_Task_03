@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+  <h1>Students Enrollment Registration Form</h1>
+    <div class="container">
+      <div class="c1">
+        <h1>Student Enrollment Form</h1>
+        <form id="enrollmentForm">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="website">Website Link :</label>
+            <input type="text" id="website" name="website"><br><br>
+            
+            <label for="image">Image Link :</label>
+            <input type="text" id="image" name="image"><br><br>
+            
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" name="gender[]" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender[]" value="Female">
+            <label for="male">Female</label>
+            <input type="radio" id="other" name="gender[]" value="other">
+            <label for="male">other</label><br><br>
+    
+    
+            <label for="skills">Skills :</label><br>
+            <input type="checkbox" id="html" name="skills[]" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills[]" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="skills[]" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <div class="c2">
+          
+            <h1>Enrollment Details</h1>
+            <table id="enrollmentTable">
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                </tr>
+                <tr class="data">
+                </tr>
+            </table>
+    
+
+      </div>
+
+    </div>
+   
+  
+    <script src="script.js"></script>
+</body>
+</html>

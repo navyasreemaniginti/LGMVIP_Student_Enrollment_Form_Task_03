@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(139, 196, 196);
+}
+  
+h1{
+    text-align: center;
+    color: black;
+}
+.container{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+}
+
+
+.c1{
+    margin: 15px 25px;
+    width: 550px;
+    border-radius: 3px;
+
+}
+
+.c1 h1 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+  
+#name{
+    margin-left: 46px;
+}
+
+#email{
+    margin-left: 50px;
+}
+#image{
+    margin-left: 14px;
+}
+
+
+input[type="text"],input[type="email"]
+{
+    width: 70%;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+#male{
+    margin-left: 40px;
+}
+
+#html,#css,#javascript{
+    margin-left: 114px;
+}
+
+input[type="submit"] {
+    margin: 5px 5px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgb(43, 86, 126);
+    color: white;
+    border: none;
+    outline:none;
+}
+
+
+.c2{
+    margin: 15px;
+    margin-left:45px;
+    width: 550px;
+    border-radius: 3px;
+}
+
+.c2 h1 {
+    text-align: center;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    background-color: white;
+}
